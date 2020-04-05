@@ -4,9 +4,9 @@ attr_reader :save
 
 @@all = []
 
-def initialize(name)
-  @name = name
-  @save = save
+  def initialize(name)
+   @name = name
+   @save = save
 end 
 
 def self.all
